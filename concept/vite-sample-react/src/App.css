@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: monospace, ss'Courier New', Courier !important;
+}
+
+
+
+.logo {
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.leftlist{
+  text-align: left;
+}
