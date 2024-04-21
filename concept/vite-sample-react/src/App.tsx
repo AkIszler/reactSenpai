@@ -19,10 +19,11 @@ function App() {
     <div>
       <img className='logo' src={sLogo} alt=""/>
       <Messages />
-      {names.map(name => <li key={name}>{name}</li>)}
-
+      <div className='listHolder'> 
+      {names.map(name => <li className='leftlist' key={name}>{name}</li>)}
+      </div>
       <input type="text" placeholder='Enter a name' />
-      <button type="submit">Submit</button>
+      <button className='subBtn' type="submit">Submit</button>
     </div>
   )
 }
